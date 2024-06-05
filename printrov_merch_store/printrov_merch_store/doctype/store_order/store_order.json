@@ -8,6 +8,8 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "producti_detail_section",
+  "product_detail",
   "billing_detail_section",
   "address_line1",
   "address_line_2",
@@ -119,12 +121,23 @@
   {
    "fieldname": "column_break_xtvho",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "producti_detail_section",
+   "fieldtype": "Section Break",
+   "label": "Producti Detail"
+  },
+  {
+   "fieldname": "product_detail",
+   "fieldtype": "Link",
+   "label": "Product Detail",
+   "options": "Store Product"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-06-06 01:01:26.415575",
+ "modified": "2024-06-06 01:05:40.440980",
  "modified_by": "Administrator",
  "module": "Printrov Merch Store",
  "name": "Store Order",
