@@ -10,6 +10,8 @@
  "field_order": [
   "producti_detail_section",
   "product_detail",
+  "column_break_gixkk",
+  "retail_price",
   "billing_detail_section",
   "address_line1",
   "address_line_2",
@@ -132,12 +134,22 @@
    "fieldtype": "Link",
    "label": "Product Detail",
    "options": "Store Product"
+  },
+  {
+   "fetch_from": "product_detail.retail_price",
+   "fieldname": "retail_price",
+   "fieldtype": "Data",
+   "label": "Retail Price"
+  },
+  {
+   "fieldname": "column_break_gixkk",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-06-06 01:05:40.440980",
+ "modified": "2024-06-06 01:31:21.013075",
  "modified_by": "Administrator",
  "module": "Printrov Merch Store",
  "name": "Store Order",

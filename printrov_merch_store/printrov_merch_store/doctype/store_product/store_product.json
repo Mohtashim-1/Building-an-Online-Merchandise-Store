@@ -8,18 +8,43 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "sku"
+  "printrove_id",
+  "retail_price",
+  "column_break_yg1oo",
+  "front_mockup",
+  "back_mockup"
  ],
  "fields": [
   {
-   "fieldname": "sku",
+   "fieldname": "retail_price",
+   "fieldtype": "Currency",
+   "label": "Retail Price",
+   "precision": "2"
+  },
+  {
+   "fieldname": "printrove_id",
    "fieldtype": "Data",
-   "label": "SKU"
+   "label": "Printrove ID",
+   "unique": 1
+  },
+  {
+   "fieldname": "front_mockup",
+   "fieldtype": "Attach Image",
+   "label": "Front Mockup"
+  },
+  {
+   "fieldname": "back_mockup",
+   "fieldtype": "Attach",
+   "label": "Back Mockup"
+  },
+  {
+   "fieldname": "column_break_yg1oo",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-06 01:04:53.845806",
+ "modified": "2024-06-06 11:15:42.847461",
  "modified_by": "Administrator",
  "module": "Printrov Merch Store",
  "name": "Store Product",
