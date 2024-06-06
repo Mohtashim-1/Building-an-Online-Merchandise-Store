@@ -127,6 +127,12 @@ app_license = "MIT"
 # Scheduled Tasks
 # ---------------
 
+scheduler_events = {
+    "hourly":[
+        "printrov_merch_store.tasks.sync_products_from_printrov"
+    ]
+}
+
 # scheduler_events = {
 # 	"all": [
 # 		"printrov_merch_store.tasks.all"
